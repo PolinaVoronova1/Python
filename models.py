@@ -27,9 +27,4 @@ class ProductStatistics(models.Model):
 	def __str__(self):
 		return self.prodarguct.product_name
      
-'''     
-   class ProductStatisticAdmin(admin.ModelAdmin):
-        list_display = ('__str__', 'date', 'views') 
-        search_fields = ('__str__', )
-'''
 
